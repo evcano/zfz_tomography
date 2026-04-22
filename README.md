@@ -6,8 +6,8 @@ This repository includes scripts and results related to:
 
 Download using:
 
-  `git clone https://github.com/evcano/zabargad_fracture_zone_tomography.git`\
-  `cd ./zabargad_fracture_zone_tomography`\
+  `git clone https://github.com/evcano/zfz_tomography.git`\
+  `cd ./zfz_tomography`\
   `git lfs pull`
 
 Figures shown in the paper can be reproduced using the scripts in `./figures_paper`. Some figures require data provided by third parties. Please read the `README.TXT` files in each directory for more information.
