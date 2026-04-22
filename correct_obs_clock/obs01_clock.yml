@@ -1,0 +1,23 @@
+obs_sta: "OBS01"
+pair: "KL.DEEP_ZF.OBS01"
+
+fqmin: 0.17
+fqmax: 0.5
+
+wsig: [80, 120]
+wnoi: [120, 150]
+apply_window: "causal"
+
+vmin: 800.0
+vmax: 2500.0
+
+markdates:
+        - "2022-12-1"
+
+days2stack: 3
+
+data_path: "/data/valeroe/red_sea_obs/noise_corr_20hz/daily_corr_no_clock_correction/ZZ"
+project_path: "/data/valeroe/red_sea_obs/noise_corr_20hz/zf_correlation.pkl"
+
+skew_path: "/data/valeroe/red_sea_obs/correct_obs_clock/obs_skew.txt"
+figpath: null

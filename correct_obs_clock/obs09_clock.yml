@@ -1,0 +1,23 @@
+obs_sta: "OBS09"
+pair: "ZF.BREEM_ZF.OBS09"
+
+fqmin: 0.17
+fqmax: 0.5
+
+wsig: null
+wnoi: null
+apply_window: null
+
+vmin: null
+vmax: null
+
+markdates:
+        - "2022-12-1"
+
+days2stack: 3
+
+data_path: "/data/valeroe/red_sea_obs/noise_corr/daily_corr/ZZ"
+project_path: "/data/valeroe/red_sea_obs/noise_corr/zf_correlation.pkl"
+
+skew_path: "/data/valeroe/red_sea_obs/correct_obs_clock/obs_skew.txt"
+figpath: null

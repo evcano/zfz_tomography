@@ -1,0 +1,33 @@
+# PROJECT INFORMATION
+name: 'zf'
+
+# PATHS
+metadata_path: '/data/valeroe/red_sea_obs/stations_metadata'
+data_path: '/data/valeroe/red_sea_obs/data_rotated_tilt_clock_corrected'
+output_path: '/data/valeroe/red_sea_obs_2/noise_correlations_tomo'
+
+# DATA INFORMATION
+data_chans:
+  'ZF': ['HHZ','HHN','HHE','BHZ','BHN','BHE']
+  'KL': ['HNZ','HNN','HNE','BNZ','BNN','BNE']
+  'SA': ['HHZ','HHN','HHE']
+
+ignore_sta: null
+
+dt: 0.5
+data_format: 'mseed'
+
+# CORRELATION PARAMETERS
+corr_cmpts:
+  - "ZZ"
+  - "RR"
+  - "TT"
+
+corr_dur: 3600.0
+corr_overlap: 1.0
+maxlag: 600.0
+
+bad_windows: '/data/valeroe/red_sea_obs/bad_windows_zne_test/bad_windows'
+
+save_psd: False
+output_format: 'sac'
