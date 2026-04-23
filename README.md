@@ -4,9 +4,9 @@ This repository includes scripts and results related to:
 
 - E. Valero-Cano, L. Parisi, H.A. Shiddiqi, S. Jónsson, and P.M. Mai, Transdimensional ambient-noise tomography of the Zabargad Fracture Zone, Red Sea (accepted for publication in Geophysical Journal International, 2026).
 
-Download using:
+This repository includes large files tracked with Git LFS. Download using:
 
-  `git clone https://github.com/evcano/zfz_tomography.git`\
+  `git clone https://github.com/evcano/zfz_tomography.git --branch v1.0.0`\
   `cd ./zfz_tomography`\
   `git lfs pull`
 
